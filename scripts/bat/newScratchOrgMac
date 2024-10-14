@@ -13,7 +13,7 @@ sf package install --package 04t7U000000Y3V7QAK --no-prompt --installation-key $
 sf project deploy start
 
 # Tildel tilatelsessett til brukeren
-# sf org assign permset --name HOT_Lesehjelp_Admin
+# sf org assign permset --name HOT_Servicetjeneste_Admin
 
 # Oppretter testdata
 sf apex run --file scripts/apex/createTestData.apex
